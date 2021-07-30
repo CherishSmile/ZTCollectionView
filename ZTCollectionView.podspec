@@ -8,35 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTCollectionView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZTCollectionView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/1332291552@qq.com/ZTCollectionView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '1.0.0'
+  s.summary          = 'ZTCollectionView is the public base library for ZTBaseKit.'
+  s.homepage         = 'https://github.com/CherishSmile/ZTCollectionView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1332291552@qq.com' => 'misteralvin@yeah.net' }
-  s.source           = { :git => 'https://github.com/1332291552@qq.com/ZTCollectionView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'CherishSmile' => 'misteralvin@yeah.net' }
+  s.source           = { :git => 'https://github.com/CherishSmile/ZTCollectionView.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '10.0'
+  s.requires_arc = true
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'ZTCollectionView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZTCollectionView' => ['ZTCollectionView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'ZTCollectionView/ZTCollectionView.framework/Headers/*.{h}'
+  s.vendored_frameworks = 'ZTCollectionView/ZTCollectionView.framework'
+  s.public_header_files = 'ZTCollectionView/ZTCollectionView.framework/Headers/*.{h}'
 end

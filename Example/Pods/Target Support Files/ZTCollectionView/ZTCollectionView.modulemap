@@ -1,0 +1,6 @@
+framework module ZTCollectionView {
+  umbrella header "ZTCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

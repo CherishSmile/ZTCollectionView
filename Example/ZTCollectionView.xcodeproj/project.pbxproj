@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66E9358F5BE1C71DAC6A55FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		66E9358F5BE1C71DAC6A55FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E422521EA9C799B53AC92D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E422521EA9C799B53AC92D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8EDE11F84F10CFAF526843EC /* Pods-ZTCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCollectionView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTCollectionView_Example/Pods-ZTCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B7BF8B273E22EC4CB2035238 /* Pods_ZTCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CB840E40623481BF705E5B /* Pods_ZTCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1B23CD675D49BA75052147 /* Pods-ZTCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTCollectionView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZTCollectionView_Tests/Pods-ZTCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC1AA052B855F1F0BE660F64 /* ZTCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTCollectionView.podspec; path = ../ZTCollectionView.podspec; sourceTree = "<group>"; };
+		FC1AA052B855F1F0BE660F64 /* ZTCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTCollectionView.podspec; path = ../ZTCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				3A1333EE2300DC690A6D99FD /* Pods-ZTCollectionView_Tests.debug.xcconfig */,
 				ED1B23CD675D49BA75052147 /* Pods-ZTCollectionView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

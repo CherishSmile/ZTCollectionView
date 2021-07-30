@@ -1,0 +1,16 @@
+PODS:
+  - ZTCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - ZTCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  ZTCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTCollectionView: 136384fa21f3eb257b2d4041bf8e2ca039ef5776
+
+PODFILE CHECKSUM: 1bfa315990df4c84ba7acc4cf82f2da75745f0bf
+
+COCOAPODS: 1.10.1
