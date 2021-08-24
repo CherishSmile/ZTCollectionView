@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTCollectionView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ZTCollectionView is the public base library for ZTBaseKit.'
   s.homepage         = 'https://github.com/CherishSmile/ZTCollectionView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -22,5 +22,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ZTCollectionView/ZTCollectionView.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTCollectionView/ZTCollectionView.framework'
-  s.public_header_files = 'ZTCollectionView/ZTCollectionView.framework/Headers/*.{h}'
 end
